@@ -74,7 +74,9 @@ This will take your `prisma.schema` and generate a database for you. Before ever
 
 That's all the help we're giving you on this one, 
 
-By now you know the drill about how these tested assignments work. Take a look at the `package.json`, there is a `test-all` script. That script will be the thing that runs every test you have to pass in order to get through this assignment. We're attempting to slowly take the training wheels off of you, and by now we believe you're ready to stop learning directly from what we tell you and extremely ready to start learning from documentation.
+By now you know the drill about how these tested assignments work, but we want you to learn a little bit more about how to use tools like [Vitest](https://vitest.dev/). One thing you will notice is there is no `test-all` `test-1` scripts. Now that is up to you to configure! As you become a more experienced developer you are going to need to learn some things from documentation without our help. If you can... Try to use [The Vitest CLI Docs](https://vitest.dev/guide/cli.html) in order to figure out how to run these tests yourself.
+
+If you get really really stuck on running these tests, you can also visit the [#in-class channel](https://discord.com/channels/747547219586056295/1057359332121001994) on discord and look for some videos on testing to give you the vibe for how vitest or jest works.
 
 😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃
 

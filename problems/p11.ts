@@ -1,9 +1,10 @@
-import { prisma } from "./prisma";
+import { prisma } from './prisma';
 
-export const createUserWithData = async ({
-  username,
-  age,
-}: {
-  username: string;
-  age: number;
-}) => {};
+export const createUserWithData = async ({ username, age }: { username: string; age: number }) => {
+  return await prisma.user.create({
+    data: {
+      username,
+      age,
+    },
+  });
+};
